@@ -1,3 +1,8 @@
+html, body {
+  height:100%;
+  width:100%;
+}
+
 .header {
   height:150px;
   width:100%;
@@ -25,7 +30,9 @@
       }
 
 .article {
-  padding: 15px;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
       p {
@@ -36,7 +43,7 @@
 
 .footer1 {
   height:300px;
-  width:100%;
+  width:97%;
   display:flex;
   justify-content:space-around;
   align-items: center;
@@ -57,7 +64,7 @@
 
 .footer2 {
   height:125px;
-  width:100%;
+  width:97%;
   margin-top: 20px;
   display:flex;
   justify-content:space-around;
