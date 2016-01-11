@@ -1,17 +1,66 @@
 html, body {
   background-color: #d8d8d8;
-  height:100%;
+  height:700px;
   width:100%;
+
 }
 
 .header {
-
+  height:200px;
+  width:85%;
+  background-color: white;
+  margin: 0 auto;
+  border: 3px solid orange;
+  justify-content: center;
+  align-items: center;
 }
+      .p1 {
+        height:100px;
+        width: 100%;
+      }
+      .redbtn {
+        float:left;
+        display:inline-block;
+        background-color: #d0021b;
+        padding:25px;
+        margin:30px;
+      }
+      .bluebtn {
+        float:left;
+        display:inline-block;
+        background-color: #4a90e2;
+        padding:25px;
+        margin:30px;
+      }
 
 .center {
-
+  border: 3px solid orange;
+  margin:0 auto;
+  background-color: white;
 }
+      .image {
+        background-color: purple;
+        border:1px solid red;
+        height: 200px;
+        width: 80%;
+      }
+      .p2 {
+        font-family: arial;
+        text-align: center;
+      }
 
 .footer {
   background-color: #333333;
+  text-align:right;
+  height:60px;
+  width:100%;
+  position:fixed;
+  bottom:0;
+  left:0;
 }
+      .company {
+        float:right;
+        padding:20px;
+        color:white;
+        font-family: arial;
+      }
