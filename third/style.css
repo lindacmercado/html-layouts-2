@@ -1,0 +1,64 @@
+html, body {
+  background-color: white;
+  font-family: serif;
+}
+
+.header {
+  background-color: #333333;
+  display:inline-block;
+  text-align:left;
+  height:70px;
+  width:100%;
+  top:0;
+  left:0;
+
+}
+      .company {
+        float:left;
+        padding:25px;
+        color:white;
+        font-size: 18px;
+      }
+
+.fullpage {
+  margin-top:25px;
+  width:100%;
+  min-width: 800px;
+}
+
+.col1 {
+  height:auto;
+  width:40%;
+  border: 2px solid black;
+  float:left;
+  display:inline-block;
+  margin-left: 35px;
+
+}
+
+.col2 {
+  height:auto;
+  width:40%;
+  border: 2px solid black;
+  float:right;
+  display:inline-block;
+  margin-right: 35px;
+}
+
+img {
+  height: 200px;
+  width: 90%;
+  border:1px solid black;
+  margin-left: 20px;
+}
+
+}
+.footer {
+  background-color: #333333;
+  display:inline-block;
+  height:50px;
+  width:100%;
+  bottom:0;
+  left:0;
+
+}
